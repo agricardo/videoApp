@@ -1,0 +1,51 @@
+body {
+    padding: 0%;
+    margin: 0%;
+    background-color: black
+}
+.container{
+    display: flex;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+    border-top: 0vh;
+    padding: 2%;
+    background-color: gold;
+
+}
+
+.mainvideo {
+    position: relative;
+    text-align: right;
+  display: inline;
+
+}
+.coffe{
+    width: 50vw;
+}
+
+.videos {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    color: gold;
+}
+
+.video {
+    position: relative;
+    width: 25vw;
+    margin: 3% 0px;
+    border-radius: 10%;
+}
+.list{
+    overflow-y: auto;
+    height: 80vh;
+    box-sizing: border-box; 
+    
+}
+ul{
+    padding: 0px 90px;
+}
